@@ -1,4 +1,4 @@
-# Skills for Hire Project: Halifax Canoe & Kayak
+# [Skills for Hire Project: Halifax Canoe & Kayak](https://amandapennell.github.io/hfx_canoe/)
 
 ## Part 1: Responsive Frontend
 ### The Brief
