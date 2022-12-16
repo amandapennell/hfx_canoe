@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+ 
+</head>
+
+<body class="form-body">
+
+    <main class="form-canvas">
+        <section class="form-container">
+        <h2>Admin Login</h2>
+        <form name ="login" action="validate.php" method="POST" autocomplete="off">
+            <label for="name" class="form-label">Username</label>
+            <input type="text" name="username" id="username" required="">
+
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="password" id="password" required="">
+            
+            <input class="submit" type="submit" id="submit" value="Login">
+        </form>
+
+        <div class="admin-footer">
+            <P><a href="index.html">Home</a></P>
+            <p><a href="mailto:webmaster@hfxcanoe.ca">Technical Support</a></p>
+        </div>
+    </section>
+    </main>
+
+</body>
+
+</html>
